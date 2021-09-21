@@ -1,0 +1,19 @@
+{
+  "name": "stalkme",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "new:release": "learn version"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "repository": "https://github.com/salihcodev/stalkme",
+  "author": "@salihcodev",
+  "license": "",
+  "description": "Your productivity is our concern, Once you be registered in @stalkme you gonna be tracked your daily/weekly/monthly activities not only... but also you can get a year history coverage."
+}

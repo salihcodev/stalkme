@@ -1,0 +1,33 @@
+{
+  "name": "@stalkme/web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Stalkme wep application.",
+  "scripts": {
+    "start:dev": "next dev",
+    "start": "next start",
+    "start:prod": "next build",
+    "lint": "next lint",
+    "test": "echo testing $npm_package_name now!!",
+    "test:cov": "echo coverage testing for $npm_package_name..."
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@reduxjs/toolkit": "^1.6.1",
+    "framer-motion": "^4",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "sass": "^1.38.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.18",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "typescript": "4.3.5"
+  }
+}
